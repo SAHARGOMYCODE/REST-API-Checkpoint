@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Contact = require("../models/Contact");
 
-//get
+//test routing
 router.get("/hello", (req, res) => {
   res.send("hello routing");
 });
